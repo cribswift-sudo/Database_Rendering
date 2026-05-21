@@ -1,7 +1,11 @@
 const express = require("express");
 const router = express.Router();
 const {
-    getAllTodos, getOneTodo, createTodo, updateTodo, deleteTodo } = require("../Controller/TodoController");
+    getAllTodos,
+     getOneTodo, 
+     createTodo,
+      updateTodo,
+       deleteTodo } = require("../Controller/todoController");
 
 router.get("/get-todos", getAllTodos);
 router.get("/:id", getOneTodo);
