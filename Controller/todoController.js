@@ -1,4 +1,4 @@
-const TodoModel = require('../Model/todoModel.js');
+const TodoModel = require('../Model/todoModel');
  
 //CRUD Operations
 
